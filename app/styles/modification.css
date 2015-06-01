@@ -1,15 +1,27 @@
+.styleguide__feature-spotlight#contact {
+	margin-bottom: 3%;
+}
+
+.container {
+   display: inline-block;
+   margin-bottom: 1%;
+}
+
+.container#right {
+	left: 20%;
+}
+
 .footer-spacing {
+   display: inline-block;
    padding: 3px 3px 0 3px;
 }
 
 .footer-spacing#left {
-	float: left;
 }
 
 .footer-spacing#right {
-	float: right;
 }
- 
+
 .footer-icon {
 	padding: 0 3px 0 3px !important;
 	font-size: 1.3em;
@@ -34,13 +46,18 @@ height: inherit;
 position: absolute;
 left: 147%;
 width: 100%;
+top: 30px;
 }
 
 .contact{
 
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     border-top-width: 100px;
     padding-top: 10px;
 
+}
+
+.contactBottom {
+	margin-bottom: 30px !important;
 }
 
