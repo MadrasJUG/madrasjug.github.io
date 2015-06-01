@@ -1,14 +1,18 @@
-.styleguide__feature-spotlight#contact {
+.styleguide__feature-spotlight #contact {
 	margin-bottom: 3%;
 }
 
-.container {
-   display: inline-block;
+.container#main{
    margin-bottom: 1%;
 }
 
 .container#right {
 	left: 20%;
+	display: inline-block;
+}
+
+.container#left{
+	display: inline-block;
 }
 
 .footer-spacing {
