@@ -65,3 +65,46 @@ top: 30px;
 	margin-bottom: 30px !important;
 }
 
+.editorial-header .container::before {
+	font-size: 100px;
+	margin-top: 118px;
+	color: #562894;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before,
+.row:after {
+	
+  content: " ";
+  display: table;
+
+}
+
+row:after
+{
+  clear: both;
+}
+
+.thumbnail .caption{
+  padding: 9px 0;
+}
+.caption a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
+
+.paddingbottom {
+    padding-bottom: 0px;
+}
+
+.margin-bottom {
+      margin-bottom: 30px;
+}
+
