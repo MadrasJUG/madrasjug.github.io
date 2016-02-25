@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Madras Jug",
+  "launch_path": "/index.html",
+  "description": "Madras Jug website",
+  "icons": {
+    "128": "/images/touch/java.png"
+  },
+  "developer": {
+    "name": "r.sreesaran",
+    "url": ""
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Web Starter Kit",
+      "description": "A front-end template that helps you build fast, modern mobile web apps."
+    }
+  }
+}
