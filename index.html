@@ -1,109 +1,104 @@
-<!doctype html>
-<html>
-<head>
-  <link rel=stylesheet href=styles/font-mfizz/font-mfizz.css>
-  <link rel=stylesheet href=styles/font-awesome/css/font-awesome.css>
-  <link rel=stylesheet href=styles/main.css>
-  <link rel=stylesheet href=styles/components.css>
-  <link rel=stylesheet href=styles/modification.css>
-  <link rel=stylesheet href=styles/bootstrap_custom.css> 
-  <script src=http://code.jquery.com/jquery-1.11.3.min.js></script>
-  <script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js></script>
-</head>
-<body class=page--styleguide>
-<header class="app-bar promote-layer">
-<div class=app-bar-container><i class="logo step icon icon-java" style="font-size:5em "></i>
-  <h1 class=logo>&nbsp &nbsp Madras <strong>JUG</strong></h1></div>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<div class=container></div>
-<div class=code-sample><section class=styleguide__editorial-header style="
-    padding-bottom: 0px;
-    margin-bottom: 0px;">
-    <div class=editorial-header>
-      <div class=container>
-        <h1 class="tag editorial-header__title">About Us</h1>
-        <h2 class=editorial-header__subtitle>What is that we do ?</h2>
-        <p class="editorial-header__excerpt g-wide--pull-1"></p>
-        <p class=g-wide--pull-1></p>
-        <div class="row my-team">
-          <div class="sm-full col-xs-6 col-sm-4 col-md-3">
-            <div class=thumbnail><img src=https://s3.amazonaws.com/assets.toolbox.hyperisland.com/uploads/tools/1424133392/hi_icon_-02.svg class=img-circle alt=Meetups style="height: 186px;width:186px;"></div>
-            <div class="caption ">
-              <h4>Meetups</h4>
-              <p class=small></p>
-            </div>
-          </div>
+    <title>Justified Nav Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/justified-nav.css" rel="stylesheet">
+
+    <!-- custom css  -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead">
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="#">Home</a></li>
+            <li><a href="album.html">Gallery</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Madras Java users Group</h1>
+        <p class="lead">Learn Share Communicate</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+      </div>
+
+<div class="container">
+      <!-- Twitter Link -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Twitter Feeds</h2>
+          <p><a class="twitter-timeline"  data-height="500" href="https://twitter.com/MadrasJUG">Tweets by MadrasJUG</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
         </div>
-            <div class="sm-full col-xs-6 col-sm-4 col-md-3">
-              <div class=thumbnail>
-                <img src=https://s3.amazonaws.com/assets.toolbox.hyperisland.com/uploads/tools/1423663069/hi_icon__hand_w_globe_big.svg class=img-circle alt=Hackathon style="height:186px; ">
-                <div class=caption>
-                  <h4>Kickstarter</h4>
-                  <p class=small></p>
-                </div>
-              </div>
-            </div>
-            <div class="sm-full col-xs-6 col-sm-4 col-md-3">
-              <div class=thumbnail>
-                <img src=https://s3.amazonaws.com/assets.toolbox.hyperisland.com/uploads/tools/1423729534/hi_icon-30.svg class=img-circle alt=Fun>
-                <div class=caption><h4>Hackathons</h4>
-                  <p class=small></p>
-                </div>
-              </div>
-            </div>
-            <div class="sm-full col-xs-6 col-sm-4 col-md-3">
-              <div class=thumbnail><img src=https://s3.amazonaws.com/assets.toolbox.hyperisland.com/uploads/tools/1423727881/hi_icon-27.svg class=img-circle alt=events>
-                <div class=caption><h4>One day Events</h4>
-                </div>
-              </div>
-            </div>
-          </div>
+        <!--Meetup Link -->
+        <div class="col-lg-4">
+          <h2>Meetup Page</h2>
+          <p class="spacing"></p>
+<p>
+<iframe width="350" height="500" src="http://meetu.ps/3cKLPz" frameborder="0"></iframe>
+          </p>
+     <!--     <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p> -->
+       </div>
+       
+        <!--Facebook Page
+         -->
+        <div class="col-lg-4">
+          <h2>Facebook Events</h2>
+          <p>
+            <p class="spacing"></p>
+       <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmadrasjug&tabs=timeline%2Cevents&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          </p>
         </div>
-      </section>
+      </div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; Madras Java Users Group.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
     </div>
-    <div class="code-sample ">
-      <section class=styleguide__guides-section style="padding-bottom: 0px;margin-bottom: 0px;">
-        <div class=guides-section>
-          <header class=container>
-            <h2 class=xxlarge>Past Events</h2>
-          </header>
-          <ul class="guides-list container-medium">
-            <li class="guides-list__item g--half theme--introduction-to-media g--last center">
-              <div class=primary-content><h3 class=xlarge>
-                <a href=#ignore-click title="Go to Images, Audio and Video" class=themed>MDD</a>
-              </h3>
-            </div>
-            <div class=secondary-content>
-              <span class="icon-circle themed--background">
-                <i class=" icon icon-java events-image" style=font-size:40px></i>
-              </span>
-              <ol class="list-links list-links--secondary"></ol>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </div>
-  <div class=code-sample><section class="styleguide__feature-spotlight " id=contact style="
-    padding-bottom: 0px;
-    margin-bottom: 40px;
-    "><div class="featured-spotlight contact" style="margin-top: 0px;"><div class=container-medium><div class="featured-spotlight__container g--pull-half"><div class="timeline container-small"><a class=twitter-timeline href=https://twitter.com/MadrasJUG data-widget-id=565205076470284288 height=250>Tweets by @MadrasJUG</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div><div class="container-small ">
-
-    <h3 class=xxlarge>Contact Us</h3><ol class="list-lessons list-links orderlist">
-    <li><i class="fa fa-github"></i> 
-      <a class=contactus href=https://github.com/MadrasJUG>GitHub</a></li><li>
-      <i class="fa fa-facebook"></i> 
-      <a class=contactus href=https://www.facebook.com/groups/madrasjug>Facebook</a></li><li><a class=contactus href=#ignore-click>Feedback</a></li>
-      <li>
-        <i class="fa fa-weixin"></i> 
-        <a class=contactus href="http://webchat.freenode.net/?channels=##madrasJug">Irc</a></li></ol></div></div></div></div></section>
-      </div>
-      <footer id=gc-footer><div class=contianer id=main style=padding-bottom:0px><div class="container " id=left><h5 class=footer-spacing id=left><a class=spacing href=#>Back to top</a></h5></div></footer><script src=scripts/main.js></script><script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-XXXXX-X', 'auto');
-      ga('send', 'pageview');
-    </script></body></html>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
